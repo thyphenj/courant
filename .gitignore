@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/courantConsole/bin/Debug/netcoreapp2.1/courantConsole.runtimeconfig.json
+/courantConsole/bin/Debug/netcoreapp2.1/courantConsole.runtimeconfig.dev.json
+/courantConsole/bin/Debug/netcoreapp2.1/courantConsole.pdb
+/courantConsole/bin/Debug/netcoreapp2.1/courantConsole.dll
+/courantConsole/bin/Debug/netcoreapp2.1/courantConsole.deps.json
+/courantConsole/obj
+/obj
