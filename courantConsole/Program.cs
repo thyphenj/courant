@@ -56,9 +56,8 @@ namespace SlipStream
                     {
                         foreach (var z in chunks.Where(a => a.Y == y))
                         {
-                            Console.Write($"{z.Mout} {z.Min} {z.Bal}");
+                            Console.WriteLine(z);
                         }
-                        Console.WriteLine();
                     }
                     Console.WriteLine();
                 }
@@ -93,7 +92,7 @@ namespace SlipStream
         }
         public override string ToString()
         {
-            return $"{X:F3},{Y:F3},{R:F3} - {Text}";
+            return $"{X:F3},{Y:F3},{R:F3} - {Text}  {Mout} {Min} {Bal}";
         }
     }
 
